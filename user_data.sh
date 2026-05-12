@@ -1,5 +1,5 @@
 #!/bin/bash
-dnf install python3.14 python3.14-pip -y
+dnf install git nginx python3.14 python3.14-pip -y 
 python3.14 -m pip install notebook boto3 strands-agents bedrock-agentcore mcp
 
 mkdir -p /home/ec2-user/.jupyter
@@ -32,7 +32,10 @@ EOF
 systemctl daemon-reload
 systemctl enable --now jupyter
 
-dnf install -y nginx
+# 워크숍 코드 다운로드
+cd /home/ec2-user
+git clone https://github.com/yoonhyunchan/agentic-ai-workshop.git
+chown -R ec2-user:ec2-user /home/ec2-user/agentic-ai-workshop
 
 cat > /etc/nginx/conf.d/jupyter.conf << 'EOF'
 server {
