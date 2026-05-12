@@ -1,0 +1,18 @@
+# 숨김 파일
+.DS_Store
+.venv/
+.ipynb_checkpoints/
+hands-on.md
+
+# Assets & PPT
+Assets/
+PPT/
+
+# 실행 중 생성되는 파일
+sessions/
+output.json
+*.db
+
+# Python
+__pycache__/
+*.pyc
