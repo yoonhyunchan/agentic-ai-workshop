@@ -1,0 +1,23 @@
+.border-primary {
+  border-color: #3982F9 !important;
+}
+
+/* 채팅 전송 버튼 */
+#chat-submit {
+  background-color: #3982F9 !important;
+  color: #ffffff !important;
+}
+
+#chat-submit:hover {
+  background-color: #2a6de0 !important;
+}
+
+/* 정지 버튼 */
+#stop-button {
+  background-color: #F03737 !important;
+  color: #ffffff !important;
+}
+
+#stop-button:hover {
+  background-color: #c92e2e !important;
+}

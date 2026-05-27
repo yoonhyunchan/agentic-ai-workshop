@@ -1,5 +1,5 @@
 #!/bin/bash
-dnf install git nginx python3.14 python3.14-pip -y 
+dnf install git nginx python3.13 python3.13-pip -y 
 python3.14 -m pip install notebook boto3 strands-agents bedrock-agentcore mcp
 
 mkdir -p /home/ec2-user/.jupyter
