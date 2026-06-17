@@ -1,5 +1,5 @@
 # AgentCore는 ARM64 필수
-FROM --platform=linux/arm64 python:3.14-slim-bookworm
+FROM --platform=linux/arm64 python:3.13-slim-bookworm
 
 WORKDIR /app
 
