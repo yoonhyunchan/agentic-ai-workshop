@@ -1,15 +1,13 @@
-.border-primary {
-  border-color: #3982F9 !important;
+:root:root {
+  --primary: 217 93% 60%;
+  --primary-foreground: 0 0% 100%;
+  --ring: 217 93% 60%;
 }
 
-/* 채팅 전송 버튼 */
-#chat-submit {
-  background-color: #3982F9 !important;
-  color: #ffffff !important;
-}
-
-#chat-submit:hover {
-  background-color: #2a6de0 !important;
+html.dark {
+  --primary: 217 93% 60%;
+  --primary-foreground: 0 0% 100%;
+  --ring: 217 93% 60%;
 }
 
 /* 정지 버튼 */
@@ -20,4 +18,15 @@
 
 #stop-button:hover {
   background-color: #c92e2e !important;
+}
+
+/* 로그인 페이지 이미지 */
+img[alt="Image"] {
+  width: 256px !important;
+  height: 256px !important;
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%);
 }
