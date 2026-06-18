@@ -65,16 +65,16 @@ def get_data_layer():
 async def set_starters():
     return [
         cl.Starter(
-            label="Strands Agent 테스트",
-            message="Strands Agent를 테스트해줘",
+            label="오늘 운동 기록",
+            message="오늘 헬스 1시간 했어",
         ),
         cl.Starter(
-            label="Bedrock 모델 추천",
-            message="AWS Bedrock 모델 추천해줘",
+            label="이번 주 요약",
+            message="이번 주 운동 요약해줘",
         ),
         cl.Starter(
-            label="AgentCore 소개",
-            message="Amazon Bedrock AgentCore가 뭐야?",
+            label="목표 설정",
+            message="주간 목표를 180분으로 잡아줘",
         ),
     ]
 
