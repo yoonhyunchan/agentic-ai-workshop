@@ -1,22 +1,28 @@
 # 숨김 파일
+.git/
+.gitignore
+.dockerignore
 .DS_Store
 .venv/
 .ipynb_checkpoints/
 hands-on.md
-cloudformation_template.yaml
-user_data.sh
 
 # Assets & PPT
 Assets/
 PPT/
+*.pptx
+*.docx
+
+# 빌드에 불필요한 소스/문서
+chatapp/
+code/
+cloudformation_template.yaml
+user_data.sh
 
 # 실행 중 생성되는 파일
 sessions/
 output.json
 *.db
-
-# 환경변수 (절대 커밋 금지)
-.env
 
 # Python
 __pycache__/
